@@ -16,7 +16,7 @@ Private Subnet
 
 - Created VPC with 2 public subnets , 2 private subnets , Internet Gateway , NAT Gateway , Routetable and Routeable association , 2 EC2 and security groups 
 
-
+## Terraform Commands
 
 ### 1️⃣ Initialize Terraform
 ```bash
