@@ -1,5 +1,5 @@
 variable "region" {
-  default = "ap-south-1"
+  default = "us-east-1"
 }
 
 variable "key_name" {
@@ -7,5 +7,5 @@ variable "key_name" {
 }
 
 variable "my_ip" {
-  description = "Your laptop IP for SSH (example: 1.2.3.4/32)"
+  description = "Add public IP"
 }

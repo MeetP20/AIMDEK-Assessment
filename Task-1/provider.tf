@@ -9,12 +9,12 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "meet-terraform-state-bucket"
-    key    = "infra/terraform.tfstate"
-    region = "ap-south-1"
+    bucket = "test-terraform-state-bucket"
+    key    = "terraform.tfstate"
+    region = "us-east-1"
   }
 }
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-1"
 }
